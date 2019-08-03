@@ -347,10 +347,12 @@ main {
 }
 .ourColorWork__item__text {
     position: absolute;
+    max-width: 530px;
     font-family: Gilroy;
     font-size: 20px;
     line-height: 130%;
     color: #1F3744;
+    text-align: left;
     width: 100%;
     max-width: 570px;
     padding: 20px;
@@ -363,9 +365,16 @@ main {
     left: 20px;
     bottom: 20px;
 }
-.ourColorWork__item__text {
-    max-width: 530px;
+.ourColorWork__item__text p {
+    margin-bottom: 0;
 }
-
+.ourColorWork__item__text_read_more {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #163993;
+}
 
 /* Секция Нашими красками покрашены end */
