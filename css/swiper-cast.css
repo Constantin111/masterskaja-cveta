@@ -1,0 +1,109 @@
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+.swiper-container2 .swiper-slide {
+    width: 49%;
+}
+.swiper-button-left1, .swiper-container-rtl .swiper-button-right1 {
+    background-image: url("../images/arrow-left.png");
+    /*left: 10px;
+    right: auto;*/
+    right: 10px;
+    left: auto;
+}
+.swiper-button-right1, .swiper-container-rtl .swiper-button-left1 {
+    background-image: url("../images/arrow-right.png");
+    right: 10px;
+    left: auto;
+}
+.swiper-button-next1.swiper-button-disabled, .swiper-button-prev1.swiper-button-disabled {
+    opacity: .35;
+    cursor: auto;
+    pointer-events: none;
+}
+.swiper-button-right1, .swiper-button-left1 {
+    position: absolute;
+    top: 45%;
+    width: 62px;
+    height: 62px;
+    margin-top: 0px;
+    margin-right: 8%;
+    z-index: 10;
+    cursor: pointer;
+    background-size: 62px 62px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.swiper-button-right1{
+    margin-bottom: -100px;
+}
+.swiper-button-left1 {
+    margin-top: -100px;
+}
+
+.swiper-button-next2, .swiper-button-prev2 {
+    position: absolute;
+    top: -20%;
+    width: 62px;
+    height: 62px;
+    margin-top: 0px;
+    margin-right: 8%;
+    z-index: 10;
+    cursor: pointer;
+    background-size: 62px 62px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.swiper-button-prev2, .swiper-container-rtl .swiper-button-next2 {
+    background-image: url("../images/arrow-left-slide.png");
+    /*left: 10px;
+    right: auto;*/
+    right: 0px;
+    left: auto;
+}
+.swiper-button-next2, .swiper-container-rtl .swiper-button-prev2 {
+    background-image: url("../images/arrow-left-slide.png");
+    right: -90px;
+    left: auto;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+.swiper-button-prev2.active {
+    background-image: url("../images/arrow-right-slide.png");
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+.swiper-button-next2.active {
+    background-image: url("../images/arrow-right-slide.png");
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+}
